@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills Gallery</title>
+  <style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        background: #800040; /* deep pink background */
+        color: #fff;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 30px 0;
+        text-shadow: 0 0 15px rgba(255, 20, 147, 0.9);
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    /* Gallery grid */
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .gallery-item {
+        text-align: center;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 12px;
+        border: 4px solid #FF1493; /* deep pink border */
+        margin-bottom: 10px;
+    }
+
+    .caption {
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #ffe6f2;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 992px) {
+        .gallery {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .gallery {
+            grid-template-columns: 1fr;
+        }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Skills Gallery</h1>
+
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="guitar.jpg" alt="Guitar Skill">
+      <div class="caption">I can play the guitar with confidence in chords, strumming, and fingerstyle, and accompany myself while singing.</div>
+    </div>
+    <div class="gallery-item">
+      <img src="skill2.jpg" alt="Skill 2">
+      <div class="caption">Explanation for Skill 2 goes here.</div>
+    </div>
+    <div class="gallery-item">
+      <img src="skill3.jpg" alt="Skill 3">
+      <div class="caption">Explanation for Skill 3 goes here.</div>
+    </div>
+    <div class="gallery-item">
+      <img src="skill4.jpg" alt="Skill 4">
+      <div class="caption">Explanation for Skill 4 goes here.</div>
+    </div>
+  </div>
+
+</body>
+</html>

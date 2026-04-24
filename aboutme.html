@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> FEB'S WEBSITE </title> 
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+<style type="text/css">
+	.sub-menu1 {
+		border: 3px solid sandybrown;
+		border-collapse: collapse;
+		height: 5vh;
+		width: 100%;
+		table-layout: fixed;
+		position: relative;
+		z-index: 1;
+
+		background-color: rgba(225, 130, 0, 1.0);
+		position: fixed;
+		top: 10vh;
+	}
+
+	.sub-menu1 a {
+		color: black;
+		text-decoration: none;
+
+	}
+
+	.pebi a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.table-row td {
+		border: 3px solid sandybrown;
+	}
+	.sections div {
+		min-height:80vh ;
+
+	}
+	.sections div:nth-child(1){
+		background-color: peru;
+	}
+	.sections div:nth-child(2){
+		background-color: burlywood;
+
+	}
+	.sections div:nth-child(3){
+		background-color:navajowhite ;
+	}
+	.sections div:nth-child(4){
+		background-color:blanchedalmonds ;
+
+	}
+	.sections{
+		margin-top: 18vh;
+
+	}
+
+	.about{
+			display: flex;
+			padding: 60px 10%;
+			gap: 10%;
+			justify-content: space-between;
+	}
+
+	.about-image img{
+		height: 20%;
+		border-radius: 75%;
+		box-shadow: 3px 3px 5px rgba(0, 0, 0, 1.0);
+		width: 80%;
+		height: auto;
+		display: block;
+	}
+	.about-text {
+		flex: 1;
+	}
+
+	.about-image {
+		flex: 1;
+	}
+
+
+
+	section img{
+				height: 50%;
+				width: 50%;
+				border-radius: 45%;
+				box-shadow: 0 3px 10px rgba(3, 5, 9, 1.0);
+	}
+ 	#Latest, #bday, #educ, #skills {
+ 		scroll-margin-top: 18vh;
+ 	}
+ 
+	.bday {
+		align-items: center;
+		justify-content: center;
+		display: flex;
+	}
+
+	.carouselExample {
+		position: relative;
+		z-index: 10;
+	}
+
+	table-row {
+		border: 2px solid beige;
+		border-collapse: collapse;
+		width: 60%;
+		height: 5vh;
+		margin: 0px auto;
+		text-align: center;
+		font-size: 18px;
+	}
+	#educ img{
+		width: 20%;
+		height: 20%;
+		border-radius: 0;
+	}
+	th, td {
+		border: 2px solid black;
+		padding: 20px;
+		height: 20px;
+		font-size: 18px;
+	}
+
+
+	th{
+		background-color: burlywoods;
+	}
+
+	.bday {
+		font-size: 40px;
+		margin: 10px;
+		font-weight: bold;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	
+
+
+   #skills {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; /* Centering Horizontally */
+    align-items: center;     /* Centering Vertically */
+    background-color: sandybrown; /* Dark background for a creative look */
+    gap: 10px;               /* Precise spacing between cards */
+    padding: 0 1vw;
+    box-sizing: border-box;
+    overflow: hidden;        /* Keeps everything on one screen */
+}
+
+/* Individual Cards */
+#skills .grid {
+    width: 22%; 
+    height: 65vh; /* Adjusted height to look balanced in the center */
+    min-height: 400px;
+    
+    /* Your requested background style */
+    background: linear-gradient(burlywood, beige, sandybrown);
+    border-radius: 20px;
+    
+    /* Centering the content inside each card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 35px rgba(0,0,10,5.3);
+}
+
+
+.grid img {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.grid h3 {
+    font-family: 'Inter', serif;
+    font-size: 1.4rem;
+    color: #2c1e13;
+    margin-bottom: 10px;
+}
+
+.grid p {
+    font-family:serif;
+    font-size: 0.95rem;
+    color: #4a3b2e;
+    line-height: 1.5;
+    margin: 0;
+}
+
+ </style>
+
+<body>
+	<header>
+		
+	<ul class="pebi">
+		<li><a href="feb.html">My Portfolio</a></li>
+		<li><a href="feb.html"><img src="kates.png"></a></li>
+		<li><a href="feb.html">Home</a></li>
+		<li><a href="aboutme.html">About Me</a></li>
+		<li><a href="contact.html">Contacts</a></li>
+		<li><a href="profilee.html">Profiles</a></li>
+	</ul>
+
+	</header>
+	<table class="sub-menu1">
+		<tr class="table-row">
+			<td> <a href="#Latest">Lastest Updates</a> </td>
+			<td> <a href="#bday"> Birthday </a> </td>
+			<td> <a href="#educ">Educational Background </a> </td>
+			<td> <a href="#skills">Skills </a></td>
+		</tr>
+	</table>
+
+	<div class="sections">
+		<div id="Latest" class="about">
+
+			<section class="about-text">
+				<h1>Latest updates about me</h1>
+				<p> Hi! I'm Febie Kate S. Elic, I am currently studying at Apayao State College, Bachelor of Science in Information Technology .</p>
+				<h2>So who am I?</h2>
+				<p>I am Febie Kate S. Elic, people call me "Feb" for short. I am an extrovert person who loves going out, and one call away who's down for every side quest. I love learning new things, as well as learning from my mistakes and experiences. I also love playing guitar, singing and playing online games.</p>
+			</section>
+
+			<section class="about-image">
+				<img src="kates.png" alt="">
+			</section>
+
+		</div>
+			
+		<div id="bday">
+
+		<table>
+			<title class="bday"> OCTOBER 2006</title>
+			<tr class="araw">
+				<th>SUN</th>
+				<th>MON</th>
+				<th>TUES</th>
+				<th>WEDS</th>
+				<th>THURS</th>
+				<th>FRI</th>
+				<th>SAT</th>
+			</tr>
+
+		<tr class="SUN">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td class="birth">4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+		</tr>
+
+		<tr class="MON">
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+			<td>11</td>
+			<td>12</td>
+			<td>13</td>
+			<td>14</td>
+		</tr>
+
+		<tr class="TUES">
+			<td>15</td>
+			<td>16</td>
+			<td>17</td>
+			<td>18</td>
+			<td>19</td>
+			<td>20</td>
+			<td>21</td>
+		</tr>
+
+
+		<tr class="WEDS">
+			<td>22</td>
+			<td>23</td>
+			<td>24</td>
+			<td>25</td>
+			<td>26</td>
+			<td>27</td>
+			<td>28</td>
+		</tr>
+
+		<tr class="THURS">
+			<td>29</td>
+			<td>30</td>
+			<td>31</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+
+		</table>
+		</div>
+
+
+		<div id="educ">
+			<div id="carouselExample" class="carousel slide">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <a href="elem.html"><img src="palar.jpg" class="d-block w-100" alt="elem educ background"></a>
+			    </div>
+			    <div class="carousel-item">
+			     <a href="highschool_shs.html"> <img src="acts sch.jpg" class="d-block w-100" alt="hs and shs educ background"></a>
+			    </div>
+			    <div class="carousel-item">
+			     <a href="college.html"> <img src="asc.jpg" class="d-block w-100" alt="..."></a>
+			    </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+					</div>
+	</div>
+
+	<div id="skills">
+			<div class="grid"> 
+				<h3>Guitarist</h3>
+				<img src="guitar.jpg"> 
+				<p> I enjoy playing guitar, creating melodies and rhythms that bring songs to life.</p>
+			</div>
+
+			<div class="grid"> 
+				<h3>Singing</h3>
+				<img src="singing.jpg"> 
+				<p>I sing with passion and expression, using my voice to connect with people</p>
+			</div>
+
+			<div class="grid"> 
+				<h3>Photography</h3>
+				<img src="photography.jpeg">
+				<p>I love capturing moments through photography, focusing on detail, composition, and storytelling.</p> 
+			</div>
+
+			<div class="grid">
+				<h3>Doing makeup</h3>
+			 <img src="makeup.jpg"> 
+				<p> I use makeup as a form of artistry, enhancing natural beauty and experimenting with creative looks.</p>
+			</div>
+	</div>
+</body>
+</html> 

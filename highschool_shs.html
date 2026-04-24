@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIGHSCHOOL</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+
+    .palar {
+        background: linear-gradient(rgba(120, 0, 60, 0.85), rgba(180, 20, 90, 0.85)), 
+                    url('acts sch.jpg');
+        min-height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 30px;
+        gap: 40px;
+    }
+
+
+    .logo {
+        width: 180px;
+        height: auto;
+        border-radius: 90Px;
+        box-shadow: 0 0 15px rgba(255, 20, 147, 0.8);
+    }
+
+
+    .wennn {
+        display: flex;
+        flex-direction: row;  
+        justify-content: center;
+        align-items: stretch;
+        gap: 20px;
+        width: 200%;
+        max-width: 1200px;
+    }
+
+    .kates {
+        background: rgba(80, 0, 40, 0.85);
+        border-radius: 25px;
+        padding: 40px;
+        flex: 1;                
+        min-height: 200px;       
+        color: #ffe6f2;         
+        text-align: center;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .kates:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0 15px 40px rgba(255, 20, 147, 0.8);
+    }
+
+    .grad {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 4px solid #C11C84;
+        object-fit: cover;
+        background: white;
+        margin: 0 auto 15px auto;
+        box-shadow: 0 0 25px rgba(255, 20, 147, 0.9);
+    }
+
+    
+    .intro {
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 0.9rem;
+        color: #FF1493;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .content-text {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0;
+        color: #ffe6f2;
+    }
+
+  
+    h1 {
+        color: #ffffff;
+        margin: 5px 0;
+        text-shadow: 0 0 25px rgba(255, 20, 147, 0.9);
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="palar">
+    
+
+    <h1>Asian Christian Technological School and Colleges </h1>
+
+    <img src="acts logo.jpg" alt="School Logo" class="logo">
+
+
+    <div class="wennn">
+        <div class="kates">
+            <span class="intro">Graduation Picture</span>
+            <img src="grad shs.jpg" alt="Graduation Portrait" class="grad">
+            <p class="content-text">Batch of 2024</p>
+        </div>
+
+        <div class="kates">
+            <span class="intro">Mission</span>
+            <p class="content-text">"To provide free, quality education (tuition, miscellaneous, and uniforms) for Senior High School, aiming for accessible academic and technical-vocational learning."</p>
+        </div>
+
+        <div class="kates">
+            <span class="intro">Vision</span>
+            <p class="content-text">"To be a leading institution that prepares students for professional growth and future careers through practical, engaging, and "extreme" learning experiences"</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ELEMENTARY</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+
+    .palar {
+        background: linear-gradient(rgba(120, 0, 60, 0.85), rgba(180, 20, 90, 0.85)), 
+                    url('palar.jpg');
+        min-height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 20px;
+        gap: 20px;
+    }
+
+
+    .logo {
+        width: 180px;
+        height: auto;
+        border-radius: 90Px;
+        box-shadow: 0 0 15px rgba(255, 20, 147, 0.8);
+    }
+
+
+    .wennn{
+        display: flex;
+        flex-direction: row;  
+        justify-content: center;
+        align-items: stretch;
+        gap: 20px;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .kates {
+        background: rgba(80, 0, 40, 0.85);
+        border-radius: 25px;
+        padding: 30px;
+        flex: 1;                
+        min-height: 500px;       
+        color: #ffe6f2;         
+        text-align: center;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .kates:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0 15px 40px rgba(255, 20, 147, 0.8);
+    }
+
+    .grad {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 4px solid #C11C84;
+        object-fit: cover;
+        background: white;
+        margin: 0 auto 15px auto;
+        box-shadow: 0 0 25px rgba(255, 20, 147, 0.9);
+    }
+
+
+    .intro {
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 0.9rem;
+        color: #FF1493;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .content-text {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0;
+        color: #ffe6f2;
+    }
+
+  
+    h1 {
+        color: #ffffff;
+        margin: 5px 0;
+        text-shadow: 0 0 25px rgba(255, 20, 147, 0.9);
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="palar">
+    
+
+    <h1>Palar Integrated School</h1>
+
+    <img src="logo.jpg" alt="School Logo" class="logo">
+
+
+    <div class="wennn">
+        <div class="kates">
+            <span class="intro">Graduation Picture</span>
+            <img src="gradpic.jpg" alt="Graduation Portrait" class="grad">
+            <p class="content-text">Batch of 2017-2018</p>
+        </div>
+
+        <div class="kates">
+            <span class="intro">Our Mission</span>
+            <p class="content-text">"To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where:
+            Students learn in a child-friendly, gender sensitive, safe and motivating environment
+            Teachers facilitate learning and constantly nurture every learner
+            Administrators and staff, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen
+            Family, community and other stakeholders are actively engaged and share responsibility for developing lifelong learners."</p>
+        </div>
+
+        <div class="kates">
+            <span class="intro">Our Vision</span>
+            <p class="content-text">"We dream of Filipinos who passionately love their country and whose competencies and values enable them to realize their full potential and contribute meaningfully to building the nation. As a learner-centered public institution, the Department of Education continuously improves itself to better service its stakeholders."</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
